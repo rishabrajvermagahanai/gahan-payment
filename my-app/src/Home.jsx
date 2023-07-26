@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import axios from "axios";
-import './Pricing.css'
-
+import "./Pricing.css";
 
 const Home = () => {
   const checkoutHandler = async (amount) => {
@@ -42,7 +41,6 @@ const Home = () => {
 
   return (
     <div>
-      
       <div>
         <div class="row">
           <div class="col-sm-6">
@@ -76,12 +74,12 @@ const Home = () => {
                   ,Adaptive Cruise Control
                 </p>
                 <div className="btndiv">
-                <Card amount={35000} checkoutHandler={checkoutHandler} />
-                  
+                  <Card amount={35000} checkoutHandler={checkoutHandler} />
                 </div>
               </div>
             </div>
           </div>
+          
 
           <div class="col-sm-6">
             <div class="card">
@@ -114,9 +112,7 @@ const Home = () => {
                   ,Adaptive Cruise Control
                 </p>
                 <div className="btndiv">
-                  
-                <Card amount={35000} checkoutHandler={checkoutHandler} />
-
+                  <Card amount={35000} checkoutHandler={checkoutHandler} />
                 </div>
               </div>
             </div>

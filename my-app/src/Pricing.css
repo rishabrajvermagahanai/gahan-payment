@@ -8,7 +8,7 @@
 .card {
   margin: 8vh;
   margin-bottom: 30px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(19, 4, 4, 0.1);
   border: 1px solid #e1e1e1;
 }
 
@@ -63,4 +63,64 @@
 
 .btn-primary:hover {
   background-color: #0056b3;
+}
+
+
+.main{
+  background-color: #e5dada;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 420px;
+  width: 100%;
+}
+
+.one,.two{
+  height: 350px;
+  width: 500px;
+  border: 3px solid;
+  background-color: #999;
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px rgba(190, 7, 7, 0.5);
+}
+
+.text{
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.buy{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-left: 18px;
+  height: 220px;
+  width: 450px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ background-color: rgb(145, 158, 235);
+ border: 2px solid rgb(114, 40, 40);
+}
+.button:hover{
+  transform: scale(1.2);
+  background-color: #007bff;
 }
